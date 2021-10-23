@@ -13,18 +13,17 @@ body {
 }
 
 body {
-  background: url(images/Desktop.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  /**background: url(images/Desktop.png) no-repeat center/cover;**/
   display: grid;
   place-items: center;
   height: 100%;
 }
 
 main{
-  background: url(images/Background.svg);
-  width: 375px;
-  height: 812px;
+  background: url(images/Background.svg) no-repeat center/cover;
+  width: 100vw;
+  min-height: 812px;
+  height: 100vh;
   color: var(--grey);
 }
 
